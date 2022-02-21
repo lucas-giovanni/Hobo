@@ -1,0 +1,15 @@
+.inlog-background {
+  background-image: url("../images/background-image.png");
+  background-size: cover;
+}
+
+.login-block {
+  background-color: rgba(0, 0, 0, .75);
+  min-height: 660px;
+  min-width: 380px;
+  max-width: 400px;
+}
+
+.login-block h1, p {
+  color: #fff;
+}
