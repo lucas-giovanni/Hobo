@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -7,21 +7,26 @@
   </head>
   <body class="inlog-background">
     <div class="login-block">
-      <h1>Sign In</h1>
+      <h1 class="inlog-title">Sign In</h1>
       <div class="inlog-invoer">
         <p>E-mail Or Phone Number</p>
-        <p>Password</p>
+        <input class="inlog-input" type="text" name="Username" placeholder="Username">
+          <p>Password</p>
+        <input class="inlog-input" type="text" name="Password" placeholder="Password">
       </div>
-      <div class="inlog-knop">
-        <a href="#">Sign In</a>
-      </div>
-      <div class="inlog-privacy">
-        <form action="/action_page.php">
+      <div class=""><br>
+        <div class="inlog-knop">
+          <a href="#">Sign In</a>
+        </div>
+        <form class="inlog-privacy" action="/action_page.php">
+          <!-- <input type="submit" value="Submit"><br> -->
           <input type="checkbox" id="privacy1" name="privacy" value="privacy">
           <label for="Privacy"> <a href="#">privacy</a> </label><br>
-          <input type="submit" value="Submit">
-        </form>
+      </form><br>
       </div>
+      <div class="inlog-Register">
+      <p>No account yet? <a href="#">Register</a> </p>
+    </div>
     </div>
 
   </body>

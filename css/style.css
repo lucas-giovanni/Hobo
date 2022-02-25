@@ -1,6 +1,15 @@
+body {
+  font-family: calibri;
+}
+
+a {
+  text-decoration: none;
+}
+
 .inlog-background {
   background-image: url("../images/background-image.png");
   background-size: cover;
+  position: relative;
 }
 
 .login-block {
@@ -8,8 +17,81 @@
   min-height: 660px;
   min-width: 380px;
   max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
-.login-block h1, p {
+.login-block p {
   color: #fff;
+}
+
+.inlog-title {
+  text-align: center;
+  color: #92D050;
+  padding-top: 35px;
+}
+
+.inlog-knop {
+  background-color: #92D050;
+  display: block;
+  width: 85%;
+  text-align: center;
+  margin: auto;
+  height: 35px;
+}
+
+.inlog-knop a {
+  display: inline-block;
+  color: #fff;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.inlog-invoer {
+  margin-left: 33px;
+  margin-top: 85px;
+}
+
+.inlog-input {
+  width: 90%;
+  background-color: #333333;
+  color: #92D050;
+  font-size: 1rem;
+  font-weight: bolder;
+  margin: auto;
+  height: 30px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #92D050;
+  opacity: 1;
+  /* Firefox */
+}
+
+.inlog-privacy {
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.inlog-privacy a {
+  color: #92D050;
+}
+
+.inlog-Register {
+  margin-right: 15px;
+  color: #878787;
+  float: right;
+}
+
+.inlog-Register p {
+  color: #878787;
+}
+
+.inlog-Register a {
+  color: #92D050;
 }
