@@ -16,7 +16,7 @@
       </div>
       <div class=""><br>
         <div class="form-knop">
-          <a href="#">Sign In</a>
+          <a href="whoswatching.php">Sign In</a>
         </div>
         <form class="inlog-privacy" action="/action_page.php">
           <!-- <input type="submit" value="Submit"><br> -->
