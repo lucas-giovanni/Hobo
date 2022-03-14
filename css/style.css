@@ -6,13 +6,17 @@ a {
   text-decoration: none;
 }
 
-.inlog-background {
+.image-background {
   background-image: url("../images/background-image.png");
   background-size: cover;
   position: relative;
 }
 
-.login-block {
+.white-background {
+  color: #FFFFFF;
+}
+
+.black-block {
   background-color: rgba(0, 0, 0, .75);
   min-height: 660px;
   min-width: 380px;
@@ -23,17 +27,27 @@ a {
   width: 40%;
 }
 
-.login-block p {
+.black-block p {
   color: #fff;
 }
 
-.inlog-title {
+.green-title {
   text-align: center;
   color: #92D050;
   padding-top: 35px;
 }
 
-.inlog-knop {
+.steps {
+  color: #92D050;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.green-text {
+  color: #92D050 !important;
+}
+
+.form-knop {
   background-color: #92D050;
   display: block;
   width: 85%;
@@ -42,7 +56,7 @@ a {
   height: 35px;
 }
 
-.inlog-knop a {
+.form-knop a {
   display: inline-block;
   color: #fff;
   font-weight: bolder;
@@ -51,12 +65,12 @@ a {
   margin-top: 5px;
 }
 
-.inlog-invoer {
+.form-invoer {
   margin-left: 33px;
   margin-top: 85px;
 }
 
-.inlog-input {
+.form-input {
   width: 90%;
   background-color: #333333;
   color: #92D050;

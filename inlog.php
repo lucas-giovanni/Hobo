@@ -5,17 +5,17 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" >
     <title>Login</title>
   </head>
-  <body class="inlog-background">
-    <div class="login-block">
-      <h1 class="inlog-title">Sign In</h1>
-      <div class="inlog-invoer">
+  <body class="image-background">
+    <div class="black-block">
+      <h1 class="green-title">Sign In</h1>
+      <div class="form-invoer">
         <p>E-mail Or Phone Number</p>
-        <input class="inlog-input" type="text" name="Username" placeholder="Username">
+        <input class="form-input" type="text" name="Username" placeholder="Username">
           <p>Password</p>
-        <input class="inlog-input" type="text" name="Password" placeholder="Password">
+        <input class="form-input" type="text" name="Password" placeholder="Password">
       </div>
       <div class=""><br>
-        <div class="inlog-knop">
+        <div class="form-knop">
           <a href="#">Sign In</a>
         </div>
         <form class="inlog-privacy" action="/action_page.php">
@@ -24,9 +24,9 @@
           <label for="Privacy"> <a href="#">privacy</a> </label><br>
       </form><br>
       </div>
-      <div class="inlog-Register">
-      <p>No account yet? <a href="#">Register</a> </p>
-    </div>
+        <div class="inlog-Register">
+        <p>No account yet? <a href="#">Register</a> </p>
+      </div>
     </div>
 
   </body>
