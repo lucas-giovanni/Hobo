@@ -29,39 +29,46 @@
      </div>
 
    </div> -->
-   <div class="">
-
+   <div class="bb">
+     <div class="oof">
    <div class="steps ">
      <p class="green-text">Step 2 of 3 </p>
    </div>
    <h3>Choose the plan that’s right for you!</h3>
-   <div class="blocks">
+ </div>
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   <div class="test">
+   <div class="blocks flex">
      <p>Basic</p>
      <p>standard</p>
      <p>premium</p>
    </div>
-   <div class="prices">
+   <div class="prices flex">
      <p>7.99</p>
      <p>11.99</p>
      <p>15.99</p>
    </div>
-   <div class="quality">
+   <div class="quality flex">
     <p>Goof</p>
     <p>Better</p>
     <p>Best</p>
    </div>
-   <div class="resolution">
+   <div class="resolution flex">
      <p>480P</p>
      <p>1080P</p>
      <p>4k+HDR</p>
    </div>
-   <div class="watch-on">
+   <div class="watch-on flex">
      <p>check</p>
      <p>check</p>
      <p>check</p>
    </div>
+ </div>
+<div class="aa">
+
    <p>HD (720p), Full HD (1080p), Ultra HD (4K) and HDR availability subject to your internet service and device capabilities. Not all content is available in all resolutions. See our Terms of Use for more details.
 Only people who live with you may use your account. Watch on 4 different devices at the same time with Premium, 2 with Standard and 1 with Basic.</p>
+</div>
  </div>
 
 

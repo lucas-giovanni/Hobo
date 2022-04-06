@@ -1,3 +1,36 @@
+function validateEmail() {
+    let email = document.getElementById('id_email').value;
+    let re = /\S+@\S+\.\S+/;
+    let result = re.test(email);
+    if (result) {
+        document.getElementById('email-error').style.display = "none";
+        document.getElementById('submitbutton').disabled = false;
+       // document.getElementById("email-form").submit();
+    }
+    else {
+        document.getElementById('email-error').style.display = "block";
+        document.getElementById('submitbutton').disabled = true;
+    }
+}
+
+var faq = document.getElementsByClassName("faq-page");
+var i;
+for (i = 0; i < faq.length; i++) {
+    faq[i].addEventListener("click", function () {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+        /* Toggle between hiding and showing the active panel */
+        var body = this.nextElementSibling;
+        if (body.style.display === "block") {
+            body.style.display = "none";
+        } else {
+            body.style.display = "block";
+        }
+    });
+}
+
+
 const users = ['Lucas', 'Mischa', 'Ruben'];
 
 const memberDiv = document.querySelector('.memberDiv');

@@ -1,3 +1,12 @@
+<?php
+if (isset($_POST["name"])) {
+  require "2-core.php";
+  require "3-lib-member.php";
+  if ($MEM->add($_POST["name"], $_POST["email"], $_POST["password"])) {
+    exit();
+  }
+} ?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
  <head>
@@ -6,7 +15,10 @@
    <title>Register</title>
  </head>
  <body class="image-background">
-   <div class="black-block">
+   <?php
+   if (isset($MEM)) { echo "<div class='error'>".$MEM->error."</div>"; }
+   ?>
+   <!-- <div class="black-block">
      <h1 class="green-title">Register</h1>
      <div class="steps ">
        <p class="green-text">Step 1 of 3 </p>
@@ -27,13 +39,19 @@
          <a href="registers2.php">Start your Register!</a>
        </div>
        <form class="inlog-privacy" action="/action_page.php">
-         <!-- <input type="submit" value="Submit"><br> -->
          <input type="checkbox" id="privacy1" name="privacy" value="privacy">
          <label for="Privacy"> <a href="#">privacy</a> </label><br>
      </form><br>
      </div>
 
-   </div>
+   </div> -->
+
+   <form method="post" class="form">
+     <input type="text" name="name" placeholder="Name" required/>
+     <input type="email" name="email" placeholder="Email" required/>
+     <input type="password" name="password" placeholder="Password" required/>
+     <input type="submit" value="Register"/>
+   </form>
 
  </body>
 </html>

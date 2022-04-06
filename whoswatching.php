@@ -32,7 +32,6 @@
       <div class="memberDiv">
         <button class="addIcon"><i class="fas fa-plus-circle"></i> <span>Add Profile</span></button>
       </div>
-      <button class="manageProfile">manage Profile</button>
     </div>
   </div>
   <script src="js/script.js"></script>
