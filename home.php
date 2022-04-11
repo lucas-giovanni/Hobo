@@ -24,7 +24,7 @@
             <h2>Watch anywhere. Cancel anytime.</h2>
 
             <!-- landing page form start -->
-            <form class="email-form d-flex" id="email-form" method="POST" action="register.php">
+            <form class="email-form d-flex" id="email-form" method="POST" action="sign-up.php">
 
                 <h3 class="email-form-title text-white">Ready to watch? Enter your email to create or access your account.</h3>
                 <p id="email-error" style="color: #92D050; font-weight: 600; display: none;">Enter correct email</p>

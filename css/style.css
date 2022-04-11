@@ -92,7 +92,11 @@ a {
   /* Firefox */
 }
 
-.inlog-privacy {
+.checkbox2 {
+  margin-left: 30px;
+}
+
+4 .inlog-privacy {
   margin-top: 15px;
   margin-left: 25px;
 }
@@ -102,7 +106,7 @@ a {
 }
 
 .inlog-Register {
-  margin-right: 15px;
+  margin-right: 110px;
   color: #878787;
   float: right;
 }

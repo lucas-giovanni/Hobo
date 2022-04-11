@@ -40,7 +40,7 @@ const userIcons = () => {
     users.reverse();
     users.map((curElem) => {
         memberDiv.insertAdjacentHTML('afterbegin', `
-        <button type="reset" onclick="location.href='inlog.php'" class="btn"><span>${curElem}</span></button>
+        <button type="reset" onclick="location.href='../hobo/Home/browse.php'" class="btn"><span>${curElem}</span></button>
         `);
     })
 };
@@ -52,7 +52,7 @@ addIcon.addEventListener('click', () => {
         users.push(userName);
         console.log(users);
         memberDiv.insertAdjacentHTML('afterbegin', `
-        <button type="reset" onclick="location.href='inlog.php'" class="btn"><span>${userName}</span></button>
+        <button type="reset" onclick="location.href='../hobo/Home/browse.php'" class="btn"><span>${userName}</span></button>
         `);
     }else{
         alert('username already exist');

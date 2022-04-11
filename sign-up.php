@@ -12,7 +12,7 @@ include("config.php");
 
 		<script src="js/jquery-1.11.0.min.js"></script>
 		<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-		<!-- <script src="js/jquery.validate.min.js" type="text/javascript"></script> -->
+		<script src="js/jquery.validate.min.js" type="text/javascript"></script>
 		<script>
 			$(document).ready(function() {
 				$('.popup-with-zoom-anim').magnificPopup({
@@ -73,9 +73,9 @@ include("config.php");
 							$last_id = $connection->insert_id;
 							?>
 							<div class="paypal-form">
-								<h3>Redirecting to PayPal.com ...</h3>
+								<h3>Redirecting to login ...</h3>
 								<img src="images/ajax-loader.gif" alt="Ajax Loader">
-								<form id="paypalForm" action="https://www.paypal.com/cgi-bin/webscr" method="post"
+								<form id="paypalForm" action="inlog.php" method="post"
 									  style="display: inline">
 									<input type="hidden" name="cmd" value="_xclick-subscriptions" />
 									<input type="hidden" name="business" value="<?php echo $SETTINGS["paypal_address"]; ?>" />
@@ -105,17 +105,16 @@ include("config.php");
 							<div class="price-block agile">
 								<div class="price-gd-top pric-clr1">
 									<h4>Basic</h4>
-									<h3>$5</h3>
+									<h3>€7.99</h3>
 									<h5>per month</h5>
 								</div>
 								<div class="price-gd-bottom">
 									<div class="price-list">
 										<ul>
 											<li>Full access</li>
-											<li>Documentation</li>
-											<li>Customers Support</li>
-											<li>Free Updates</li>
-											<li>Unlimited Domains</li>
+											<li>Good Quality</li>
+											<li>Resolution 480p</li>
+											<li>watch on all platforms</li>
 										</ul>
 									</div>
 								</div>
@@ -128,17 +127,16 @@ include("config.php");
 							<div class="price-block agile">
 								<div class="price-gd-top pric-clr2">
 									<h4>Standard</h4>
-									<h3>$10</h3>
+									<h3>€11.99</h3>
 									<h5>per month</h5>
 								</div>
 								<div class="price-gd-bottom">
 									<div class="price-list">
 										<ul>
 											<li>Full access</li>
-											<li>Documentation</li>
-											<li>Customers Support</li>
-											<li>Free Updates</li>
-											<li>Unlimited Domains</li>
+											<li>Better Quality</li>
+											<li>Resolution 1080p</li>
+											<li>watch on all platforms</li>
 										</ul>
 									</div>
 								</div>
@@ -151,17 +149,16 @@ include("config.php");
 							<div class="price-block agile">
 								<div class="price-gd-top pric-clr3">
 									<h4>Premium</h4>
-									<h3>$20</h3>
+									<h3>€15.99</h3>
 									<h5>per month</h5>
 								</div>
 								<div class="price-gd-bottom">
 									<div class="price-list">
 										<ul>
 											<li>Full access</li>
-											<li>Documentation</li>
-											<li>Customers Support</li>
-											<li>Free Updates</li>
-											<li>Unlimited Domains</li>
+											<li>Best Quality</li>
+											<li>Resolution 4K+HDR</li>
+											<li>watch on all platforms</li>
 										</ul>
 									</div>
 								</div>
@@ -192,10 +189,9 @@ include("config.php");
 								<li><input class="text-box-dark" type="text" placeholder="Name" name="Name" required></li>
 								<li><input class="text-box-dark email" type="text" placeholder="Email" name="Email" required></li>
 								<li><input class="text-box-dark" type="password" placeholder="Password" name="Password" required></li>
-								<li><input class="text-box-dark" type="text" placeholder="Phone" name="Phone"></li>
 							</ul>
 													<span class="checkbox1">
-														   <label class="checkbox"><input type="checkbox" name="Terms" checked="" required><i> </i>I Accept Terms.</label>
+														   <label class="checkbox"><input type="checkbox" name="Terms" checked="" required><i> </i>I Accept Terms of <a href="privacy.php" target="_blank" >privacy</a> .</label>
 													 </span>
 							<ul class="payment-sendbtns">
 								<li><input type="submit" value="Submit"></li>
@@ -206,10 +202,6 @@ include("config.php");
 			</div>
 		</div>
 
-		<!--pop-up-grid-->
-		<br /><br /><br /><br />
-		<div class="copy-rights">
-			<p>Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-		</div>
+
 	</body>
 </html>
