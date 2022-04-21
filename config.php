@@ -4,5 +4,5 @@ $SETTINGS["mysql_pass"]='';
 $SETTINGS["hostname"]='localhost';
 $SETTINGS["mysql_database"]='hobo';
 $SETTINGS["data_table"]='registrations';
-$SETTINGS["paypal_address"]='lucasgiovanni.adel@gmail.com';
+$SETTINGS["paypal_address"]='a@a.nl';
 ?>
